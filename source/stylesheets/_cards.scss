@@ -17,10 +17,11 @@
       font-size: 22px;
       border-bottom: 1px solid #FFF;
       border-top: 1px solid #FFF;
+      padding: 0.5em 0;
       
       .mega {
         
-        font-size: 66px;
+        font-size: 34px;
         font-weight: 700;
         
       }
@@ -38,6 +39,30 @@
   background: linear-gradient(135deg, #911e73 0%,#911e73 25%,#e30f13 71%,#e30f13 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#911e73', endColorstr='#e30f13',GradientType=1 );
   
+  @media screen and (max-width: $screen-xs) {
+    
+    margin-top: 3em;
+    
+  }
+  
+}
+
+.card-primary {
+
+  background-color: $brand-primary;
+
+  @media screen and (max-width: $screen-xs) {
+    
+    margin-top: 3em;
+    
+  }
+
+}
+
+.card-secondary {
+
+  background-color: $brand-secondary;
+
   @media screen and (max-width: $screen-xs) {
     
     margin-top: 3em;
@@ -89,6 +114,14 @@
     margin-top: 10px;
     
   }
+}
+
+.card-rounded {
+
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: 2em;
+  
 }
 
 .jumbotron-inner {
