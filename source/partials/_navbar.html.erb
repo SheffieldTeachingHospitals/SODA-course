@@ -1,0 +1,39 @@
+<%= partial "partials/topbar" %>
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-xs-4">
+        
+      </div>
+      <div class="col-md-4 col-xs-8">
+        <%= image_tag "sth_logo_blue_tight.png", class: "img-responsive img-brand" %>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="row">
+    <div class="navbar-header">
+      
+      <%= link_to "Apply now", "http://www.jobs.nhs.uk/xi/vacancy/cd19a5d0ab59b46cb0bbb1f7abc4ac79/?vac_ref=914626268", class: "btn btn-primary btn-wire navbar-btn navbar-right hidden-sm hidden-md hidden-lg" %>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="<%= is_page_selected("/") %>">
+          <%= link_to "Home", "/index.html" %>
+        </li>
+      </ul>
+    </div>
+      </div>
+  </div>
+</nav>

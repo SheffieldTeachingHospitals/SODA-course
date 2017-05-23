@@ -1,0 +1,16 @@
+.jumbotron {
+  
+  background-image: url("./../images/hex-background-flat-blue-2.jpg");
+  color: #FFF;
+  
+}
+
+@media screen and (min-width: 768px){
+  
+  .jumbotron h1, .jumbotron .h1 {
+    
+    font-size: 71px;
+    
+  }
+    
+}

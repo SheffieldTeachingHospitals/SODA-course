@@ -1,0 +1,44 @@
+.align-right {
+
+  float: right;
+  margin: 0 0 10px 20px;
+
+  @media screen and (max-width: $screen-xs) {
+    
+    display: block;
+    margin: 10px;
+    width: 40%;
+    
+  }
+
+}
+
+.align-left {
+
+  float: left;
+  margin: 0 20px 10px 0;
+
+  @media screen and (max-width: $screen-xs) {
+    
+    display: block;
+    margin: 10px;
+    width: 40%;
+    
+  }
+
+}
+
+.img-headroom {
+  
+  @media screen and (min-width: $screen-xs) {
+    
+    margin-top: 6em;
+    
+  }
+}
+
+.img-footing {
+
+  margin-bottom: 2em;
+  
+}
